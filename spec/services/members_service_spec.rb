@@ -1,10 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe MembersService do 
-  it "can return members" do
+  it "can return members", :vcr do
     params = {"nation"=>"fire+nation", "commit"=>"Search For Members", "controller"=>"search", "action"=>"index"}
     member_results = MembersService.new.find_nation_members(params)
-    # binding.pry
+ 
     expect(member_results).to be_a Array
 
     member_results.each do |member|

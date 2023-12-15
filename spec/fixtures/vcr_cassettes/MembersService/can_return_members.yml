@@ -1,0 +1,379 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://last-airbender-api.fly.dev/api/v1/characters?affiliation=&perPage=200
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.12
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"c9d9-WoKfw+QcNBOkLV0qxp/rK0I/S84"
+      Date:
+      - Fri, 15 Dec 2023 17:59:47 GMT
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=5
+      Transfer-Encoding:
+      - chunked
+      Server:
+      - Fly/5f77bacf (2023-12-11)
+      Via:
+      - 1.1 fly.io
+      Fly-Request-Id:
+      - 01HHQA4TVRQB1R0SB2H8PKR90J-chi
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"_id":"5cf5679a915ecad153ab68d5","allies":["His "],"enemies":["Korra
+        "],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/6/6f/Arik.png/revision/latest?cb=20140808184002","name":"Arik","affiliation":"Earth
+        Kingdom Air Force"},{"_id":"5cf5679a915ecad153ab68cb","allies":["Kya"],"enemies":["Zuko"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/7/79/Pilot_-_Aang.png/revision/latest?cb=20120311133235","name":"Aang
+        (pilot)","affiliation":" Air Nomads Team Avatar"},{"_id":"5cf5679a915ecad153ab68d6","allies":["Aang"],"enemies":["Zhao"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/0c/Chief.png/revision/latest?cb=20140122221730","name":"Arnook","affiliation":"Northern
+        Water Tribe"},{"_id":"5cf5679a915ecad153ab68da","allies":["Ozai","Zuko "],"enemies":["Iroh","Zuko","Kuei","Long
+        Feng","Mai","Ty Lee","Ursa "],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/1/12/Azula.png/revision/latest?cb=20140905084941","name":"Azula","affiliation":"
+        Azula''s team (formerly) Dai Li (formerly) Fire Nation Fire Nation Royal Family
+        Fire Warriors Royal Fire Academy for Girls (formerly)"},{"_id":"5cf5679a915ecad153ab68f0","allies":["Bumi"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/b/b6/Bum-Ju.png/revision/latest?cb=20140730103156","name":"Bum-Ju","affiliation":"Spirit
+        World"},{"_id":"5cf5679a915ecad153ab68f2","allies":["Aang"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/e/e8/King_Bumi.png/revision/latest?cb=20140106141303","name":"Bumi
+        (King of Omashu)","affiliation":" Earth Kingdom Order of the White Lotus"},{"_id":"5cf5679a915ecad153ab68e4","allies":["Azula"],"enemies":["Azula"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/48/Banished_servant.png/revision/latest?cb=20120222022610","name":"Banished
+        servant","affiliation":" Fire Nation Royal Family (formerly) Azula''s servants
+        (formerly)"},{"_id":"5cf5679a915ecad153ab68e7","allies":["Aang"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/e/e3/Bato_smiling.png/revision/latest?cb=20130626122901","name":"Bato","affiliation":"Southern
+        Water Tribe"},{"_id":"5cf5679a915ecad153ab68eb","allies":["Earth King"],"enemies":["Azula"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/9/9b/Bosco.png/revision/latest?cb=20140517110638","name":"Bosco","affiliation":"Earth
+        Kingdom"},{"_id":"5cf5679a915ecad153ab68ec","allies":["Toph"],"enemies":["Toph
+        "],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/7/70/The_Boulder.png/revision/latest?cb=20140317195145","name":"The
+        Boulder","affiliation":" Earth Kingdom Earth Rumble VI (formerly)"},{"_id":"5cf5679a915ecad153ab68f9","allies":[],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/2/23/Cam.png/revision/latest?cb=20150421085704","name":"Cam","affiliation":"Republic
+        City Four Elements"},{"_id":"5cf5679a915ecad153ab68cf","allies":["Red Lotus"],"enemies":["Suyin
+        Beifong"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/07/Aiwei_reveals_Korra%27s_lie.png/revision/latest?cb=20140808130551","name":"Aiwei","affiliation":"
+        Metal Clan (formerly) Red Lotus (formerly)"},{"_id":"5cf5679a915ecad153ab68c9","allies":["Appa"],"enemies":["Azula"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/a/ae/Aang_at_Jasmine_Dragon.png/revision/latest?cb=20130612174003","name":"Aang","affiliation":"
+        Air Acolytes Air Nomads Air Scouts (formerly) Team Avatar"},{"_id":"5cf5679a915ecad153ab68ef","allies":["Azula"],"enemies":["Sokka"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/02/Bully_guard.png/revision/latest?cb=20120702232626","name":"Bully
+        guard","affiliation":"Fire Nation"},{"_id":"5cf5679a915ecad153ab68f7","allies":["Cabbage
+        Corp"],"enemies":["The "],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/2/2f/Cabbage_merchant.png/revision/latest?cb=20140112200908","name":"Cabbage
+        merchant","affiliation":" Cabbage Corp Earth Kingdom"},{"_id":"5cf5679a915ecad153ab68fe","allies":["Jeong
+        Jeong"],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/8/8d/Chey.png/revision/latest?cb=20140116103519","name":"Chey","affiliation":"
+        Fire Nation Army (formerly)"},{"_id":"5cf5679a915ecad153ab68d4","allies":["Appa"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/b/be/Appa%27s_mother.png/revision/latest?cb=20130705194428","name":"Appa''s
+        mother","affiliation":"Air Nomads"},{"_id":"5cf5679a915ecad153ab68df","allies":["His
+        "],"enemies":["Korra "],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/03/Ba_Sing_Se_airship_co-pilot.png/revision/latest?cb=20140808223854","name":"Ba
+        Sing Se airship co-pilot","affiliation":"Earth Kingdom Air Force"},{"_id":"5cf5679a915ecad153ab68e0","allies":["Zei"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/2/2c/Ba_Sing_Se_student.png/revision/latest?cb=20140422090140","name":"Ba
+        Sing Se University student","affiliation":"Ba Sing Se University"},{"_id":"5cf5679a915ecad153ab68ee","allies":["Ozai"],"enemies":["Zuko"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/7/76/Bujing.png/revision/latest?cb=20130714152817","name":"Bujing","affiliation":"Fire
+        Nation military"},{"_id":"5cf5679a915ecad153ab68ca","allies":["Gyatso"],"enemies":["Ozai"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/2/21/Into_The_Inferno_Aang.png/revision/latest?cb=20131009060746","name":"Aang
+        (games)","affiliation":" Air Nomads Team Avatar"},{"_id":"5cf5679a915ecad153ab68d1","allies":["Riley"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/c/c3/Analay.png/revision/latest?cb=20140430182201","name":"Analay","affiliation":"Unnamed
+        team"},{"_id":"5cf5679a915ecad153ab68cc","allies":["Fire Nation"],"enemies":["Aang"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/2/24/Afiko.png/revision/latest?cb=20121121024128","name":"Afiko","affiliation":"Fire
+        Nation"},{"_id":"5cf5679a915ecad153ab68dd","allies":["Iroh"],"enemies":["Ozai",""],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/1/1e/Azulon.png/revision/latest?cb=20140331143003","name":"Azulon","affiliation":"
+        Fire Nation Fire Nation Royal Family Military of the Fire Nation"},{"_id":"5cf5679a915ecad153ab68ed","allies":[],"enemies":["Zuko"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/9/98/Broadsword_man.png/revision/latest?cb=20130630171553","name":"Broadsword
+        man","affiliation":"Earth Kingdom"},{"_id":"5cf5679a915ecad153ab68fd","allies":["Ozai"],"enemies":["Earth
+        Kingdom"],"name":"Chan (Fire Nation admiral)","affiliation":"Fire Nation Navy"},{"_id":"5cf5679a915ecad153ab68e2","allies":["Suyin
+        Beifong"],"enemies":["Metal Clan "],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/45/Baatar_Jr..png/revision/latest?cb=20150409193510","name":"Baatar
+        Jr.","affiliation":" Beifong family Military of the Earth Empire (formerly)
+        Metal Clan"},{"_id":"5cf5679a915ecad153ab68e1","allies":["Suyin Beifong",""],"enemies":["Kuvira"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/d/dd/Baatar.png/revision/latest?cb=20150408115101","name":"Baatar","affiliation":"
+        Beifong family Metal Clan"},{"_id":"5cf5679a915ecad153ab68ce","allies":["Aang"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/7/79/Air_Nomad_boy.png/revision/latest?cb=20130714154218","name":"Air
+        Nomad boy","affiliation":"Air Nomads"},{"_id":"5cf5679a915ecad153ab68e9","allies":["Asami
+        Sato"],"enemies":["Amon"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/d/d4/Bolin.png/revision/latest?cb=20150406232314","name":"Bolin","affiliation":"
+        Fire Ferrets (formerly) Kuvira''s army (deserted) Team Avatar Triple Threat
+        Triad (formerly) Republic City Police"},{"_id":"5cf5679a915ecad153ab68d9","allies":["Wan"],"enemies":["Jaya"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/7/76/Aye-aye_spirit.png/revision/latest?cb=20131019224533","name":"Aye-aye
+        spirit","affiliation":"Spirit World"},{"_id":"5cf5679a915ecad153ab68dc","allies":["Azula"],"enemies":["Iroh"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/b/bc/Azula%27s_ship_captain.png/revision/latest?cb=20130625131841","name":"Azula''s
+        ship captain","affiliation":"Fire Nation Navy"},{"_id":"5cf5679a915ecad153ab68e3","allies":["Spirit
+        World firefly"],"enemies":["Hei Bai"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/07/Baboon_spirit.png/revision/latest?cb=20140124171522","name":"Baboon
+        spirit","affiliation":"Spirit World"},{"_id":"5cf5679a915ecad153ab68d0","allies":["Tarrlok"],"enemies":["Lin
+        Beifong"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/00/Amon_and_his_Equalists.png/revision/latest?cb=20160219113422","name":"Amon","affiliation":"
+        Equalists (formerly) Northern Water Tribe (formerly)"},{"_id":"5cf5679a915ecad153ab68fa","allies":["Aang"],"enemies":["Canyon
+        crawlers"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/d/db/Canyon_guide.png/revision/latest?cb=20131202201055","name":"Canyon
+        guide","affiliation":"Earth Kingdom"},{"_id":"5cf5679a915ecad153ab68f1","allies":["Aang"],"enemies":["Amon"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/06/Bumi.png/revision/latest?cb=20140318090248","name":"Bumi","affiliation":"
+        Air Nation United Forces (formerly)"},{"_id":"5cf5679a915ecad153ab68d3","allies":["His
+        mother"],"enemies":["Azula"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/6/65/Appa_flying.png/revision/latest?cb=20140517110636","name":"Appa","affiliation":"
+        Air Nomads Team Avatar"},{"_id":"5cf5679a915ecad153ab68f5","allies":["Asami
+        Sato"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/8/82/Butler.png/revision/latest?cb=20121107115044","name":"Butler","affiliation":"Sato
+        family"},{"_id":"5cf5679a915ecad153ab68fb","allies":["Long Feng"],"enemies":["Azula"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/8/89/Captured_agent.png/revision/latest?cb=20140517110639","name":"Captured
+        agent","affiliation":"Dai Li"},{"_id":"5cf5679a915ecad153ab6907","allies":["Circus
+        master"],"enemies":["Appa"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/b/bd/Circus_trainer.png/revision/latest?cb=20130705125545","name":"Circus
+        trainer","affiliation":"Fire Nation circus"},{"_id":"5cf5679a915ecad153ab68de","allies":["His
+        "],"enemies":["Korra "],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/1/11/Ba_Sing_Se_airship_captain.png/revision/latest?cb=20140808221400","name":"Ba
+        Sing Se airship captain","affiliation":"Earth Kingdom Air Force"},{"_id":"5cf5679a915ecad153ab68f8","allies":["Aunt
+        "],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/b/b6/Calm_man.png/revision/latest?cb=20130814093330","name":"Calm
+        man","affiliation":"Earth Kingdom"},{"_id":"5cf5679a915ecad153ab68c8","allies":["Royal
+        Earthbender Guards"],"enemies":["Chin"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/5/51/46th_Earth_King.png/revision/latest?cb=20130627160441","name":"46th
+        Earth King","affiliation":" Earth Kingdom Earth Kingdom Royal Family"},{"_id":"5cf5679a915ecad153ab68d7","allies":["Hiroshi
+        Sato","Korra",""],"enemies":["Amon"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/b/b6/Asami_Sato.png/revision/latest?cb=20150407110150","name":"Asami
+        Sato","affiliation":" Future Industries Sato family Team Avatar"},{"_id":"5cf5679a915ecad153ab68db","allies":["Fire
+        Nation"],"enemies":["Water Tribes"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/a/ad/Azula_%28games%29.png/revision/latest?cb=20131228015042","name":"Azula
+        (games)","affiliation":"Fire Nation"},{"_id":"5cf5679a915ecad153ab68fc","allies":["Admiral
+        Chan"],"enemies":["Azula",""],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/9/9d/Chan.png/revision/latest?cb=20140908141053","name":"Chan","affiliation":"Fire
+        Nation"},{"_id":"5cf5679a915ecad153ab6906","allies":["Ty Lee"],"enemies":["Appa"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/a/a5/Circus_master.png/revision/latest?cb=20130706153819","name":"Circus
+        master","affiliation":"Fire Nation circus"},{"_id":"5cf5679a915ecad153ab68e8","allies":["Toph
+        Beifong"],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/d/df/The_Big_Bad_Hippo.png/revision/latest?cb=20140317211139","name":"The
+        Big Bad Hippo","affiliation":" Earth Kingdom Earth Rumble VI (formerly)"},{"_id":"5cf5679a915ecad153ab68cd","allies":["Tenzin"],"enemies":["Equalists"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/c/cd/Air_Acolyte_woman.png/revision/latest?cb=20140421100225","name":"Air
+        Acolyte woman","affiliation":" Air Acolytes Air Temple Island"},{"_id":"5cf5679a915ecad153ab68e6","allies":["Military
+        of the Earth Empire"],"enemies":["Wu"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/a/ae/Bathroom_attendant.png/revision/latest?cb=20150407110151","name":"Bathroom
+        attendant","affiliation":"Military of the Earth Empire"},{"_id":"5cf5679a915ecad153ab68f6","allies":["Raiko",""],"enemies":["Varrick"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/e/ed/Buttercup_Raiko.png/revision/latest?cb=20150409193510","name":"Buttercup
+        Raiko","affiliation":"United Republic Government"},{"_id":"5cf5679a915ecad153ab6916","allies":["Spirits"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/6/66/Dragon_eel_spirit.png/revision/latest?cb=20150726120548","name":"Dragon
+        eel spirit","affiliation":"Spirit World"},{"_id":"5cf5679a915ecad153ab691a","allies":["Earth
+        Kingdom"],"enemies":["Iroh"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/8/80/Earthbender_captain.png/revision/latest?cb=20130620111830","name":"Earthbender
+        captain","affiliation":"Earth Kingdom military"},{"_id":"5cf5679a915ecad153ab6926","allies":["Sokka"],"enemies":["Earth
+        Kingdom"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/8/82/Fire_Nation_company_leader.png/revision/latest?cb=20121230121700","name":"Fire
+        Nation company leader","affiliation":"Fire Nation Army"},{"_id":"5cf5679a915ecad153ab6938","allies":["Spirits"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/e/ef/Fruithog.png/revision/latest?cb=20140730120547","name":"Fruithog","affiliation":"Spirit
+        World"},{"_id":"5cf5679a915ecad153ab691c","allies":["Ozai"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/9/9a/Elua.png/revision/latest?cb=20130519225713","name":"Elua","affiliation":"
+        Fire Nation Fire Nation Royal Family"},{"_id":"5cf5679a915ecad153ab6914","allies":["Aang"],"enemies":["General
+        "],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/d/de/Xu.png/revision/latest?cb=20140613143539","name":"Dock/Xu/Bushi","affiliation":"Jang
+        Hui"},{"_id":"5cf5679a915ecad153ab6934","allies":["Earth Kingdom"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/08/Fong.png/revision/latest?cb=20130625120143","name":"Fong","affiliation":"Earth
+        Kingdom Military"},{"_id":"5cf5679a915ecad153ab690b","allies":["Avatar"],"enemies":["Tarrlok",""],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/b/be/Council_page.png/revision/latest?cb=20140421100228","name":"Council
+        page","affiliation":"United Republic Council"},{"_id":"5cf5679a915ecad153ab6915","allies":["Amon"],"enemies":["Bolin"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/b/b7/Doorman.png/revision/latest?cb=20121107121352","name":"Doorman","affiliation":"Equalists
+        "},{"_id":"5cf5679a915ecad153ab691e","allies":["Asami Sato"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/9/9b/Future_Industries_engineer.png/revision/latest?cb=20130917193918","name":"Engineer","affiliation":"Future
+        Industries"},{"_id":"5cf5679a915ecad153ab693a","allies":["Gan Jin"],"enemies":["Zhang
+        "],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/d/d8/Gan_Jin_leader.png/revision/latest?cb=20131202205816","name":"Gan
+        Jin leader","affiliation":" Gan Jin Zhang"},{"_id":"5cf5679a915ecad153ab692d","allies":["His
+        wife"],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/f/f0/Fisherman.png/revision/latest?cb=20130714140302","name":"Fisherman","affiliation":"Earth
+        Kingdom"},{"_id":"5cf5679a915ecad153ab6937","allies":["Spirits"],"enemies":["Wan
+        "],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/7/72/Frog_spirit.png/revision/latest?cb=20131216140457","name":"Frog
+        spirit","affiliation":"Spirit World"},{"_id":"5cf5679a915ecad153ab691b","allies":["Yu"],"enemies":["Katara"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/1/11/Earthbending_academy_teenagers.png/revision/latest?cb=20140317210008","name":"Earthbending
+        academy teenagers","affiliation":" Earth Kingdom Master Yu''s Earthbending
+        Academy"},{"_id":"5cf5679a915ecad153ab6917","allies":["Zuko"],"enemies":["Red
+        Lotus"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/e/ec/Druk.png/revision/latest?cb=20140730151855","name":"Druk","affiliation":"Fire
+        Nation"},{"_id":"5cf5679a915ecad153ab6927","allies":["Her husband",""],"enemies":["Amon"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/f/f9/Fire_Nation_councilwoman.png/revision/latest?cb=20121110144847","name":"Fire
+        Nation councilwoman","affiliation":" Fire Nation United Republic Council (formerly)"},{"_id":"5cf5679a915ecad153ab6928","allies":["Headhunter"],"enemies":["Toph
+        Beifong"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/46/Fire_Nation_Man.png/revision/latest?cb=20140317210008","name":"Fire
+        Nation Man","affiliation":"Earth Rumble VI"},{"_id":"5cf5679a915ecad153ab6929","allies":["The
+        "],"enemies":["Aang"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/45/Music_teacher.png/revision/latest?cb=20140602125803","name":"Fire
+        Nation music teacher","affiliation":"Fire Nation school"},{"_id":"5cf5679a915ecad153ab692e","allies":["Her
+        husband"],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/03/Fisherman%27s_wife.png/revision/latest?cb=20130714135417","name":"Fisherman''s
+        wife","affiliation":"Earth Kingdom"},{"_id":"5cf5679a915ecad153ab6936","allies":["Team
+        Avatar"],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/3/33/Forest_spirit.png/revision/latest?cb=20140529055837","name":"Forest
+        spirit","affiliation":" Earth Kingdom Spirit World"},{"_id":"5cf5679a915ecad153ab6947","allies":["Air
+        Nation"],"enemies":["Kuvira"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/f/f6/Governor_of_Yi.png/revision/latest?cb=20150409193512","name":"Governor
+        of Yi","affiliation":"Yi"},{"_id":"5cf5679a915ecad153ab691d","allies":[],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/1/16/Ember_Island_Players.png/revision/latest?cb=20130722113209","name":"Ember
+        Island Players","affiliation":"Fire Nation"},{"_id":"5cf5679a915ecad153ab6925","allies":["Fire
+        Nation bar patron"],"enemies":["Katara"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/40/Fire_Nation_bar_patron%27s_friend.png/revision/latest?cb=20130308170725","name":"Fire
+        Nation bar patron''s friend","affiliation":"Fire Nation"},{"_id":"5cf5679a915ecad153ab6940","allies":["Zaheer"],"enemies":["Korra"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/3/39/Ghazan.png/revision/latest?cb=20140822132315","name":"Ghazan","affiliation":"Red
+        Lotus"},{"_id":"5cf5679a915ecad153ab690e","allies":[],"enemies":["Tenzin"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/9/9a/Dark_spider_spirit.png/revision/latest?cb=20141109112441","name":"Dark
+        spider spirit","affiliation":"Spirit World"},{"_id":"5cf5679a915ecad153ab6923","allies":["Qin
+        Lee"],"enemies":["Sokka"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/1/10/Airship_captain.png/revision/latest?cb=20130121145050","name":"Fire
+        Nation airship captain","affiliation":"Fire Nation"},{"_id":"5cf5679a915ecad153ab6924","allies":["His
+        friend"],"enemies":["Katara"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/d/d4/Fire_Nation_bar_patron.png/revision/latest?cb=20130308170517","name":"Fire
+        Nation bar patron","affiliation":"Fire Nation"},{"_id":"5cf5679a915ecad153ab692a","allies":["Aang"],"enemies":["Combustion
+        Man"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/c/cb/Fire_Nation_train_conductor.png/revision/latest?cb=20130308171223","name":"Fire
+        Nation train conductor","affiliation":" Fire Nation Fire Nation train"},{"_id":"5cf5679a915ecad153ab6941","allies":["Hakoda"],"enemies":["Team
+        Avatar"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/c/cd/Gilak.png/revision/latest?cb=20170524065046","name":"Gilak","affiliation":"Southern
+        Water Tribe"},{"_id":"5cf5679a915ecad153ab6946","allies":["The Boulder"],"enemies":["Toph
+        Beifong"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/d/dd/Gopher.png/revision/latest?cb=20140317211135","name":"The
+        Gopher","affiliation":"Earth Rumble VI"},{"_id":"5cf5679a915ecad153ab6908","allies":["His
+        "],"enemies":["Team Avatar"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/f/fc/Combustion_Man.png/revision/latest?cb=20140908141111","name":"Combustion
+        Man","affiliation":"Contract employer"},{"_id":"5cf5679a915ecad153ab693d","allies":["Sela",""],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/b/b9/Gansu.png/revision/latest?cb=20140331143004","name":"Gansu","affiliation":"Lee
+        Family Pig Farm"},{"_id":"5cf5679a915ecad153ab693c","allies":["Hou-Ting"],"enemies":["Air
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/d/d8/Ganbat.png/revision/latest?cb=20140726231937","name":"Ganbat","affiliation":"Bison
+        rustlers"},{"_id":"5cf5679a915ecad153ab690c","allies":["Dai Li"],"enemies":["Bolin"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/d/db/Dai_Li_sergeant.png/revision/latest?cb=20140814081916","name":"Dai
+        Li sergeant","affiliation":" Earth Queen Hou-Ting Dai Li"},{"_id":"5cf5679a915ecad153ab6912","allies":["Northern
+        Water Tribe",""],"enemies":["Unalaq",""],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/1/1b/Chiefs_Desna_and_Eska.png/revision/latest?cb=20140730174236","name":"Desna
+        and Eska","affiliation":"Northern Water Tribe"},{"_id":"5cf5679a915ecad153ab692c","allies":["Admiral"],"enemies":["Aang"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/8/8a/Fire_Navy_officer.png/revision/latest?cb=20140519094412","name":"Fire
+        Navy officer","affiliation":"Fire Nation Navy"},{"_id":"5cf5679a915ecad153ab690d","allies":["Toph
+        Beifong"],"enemies":["Kunyo"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/4e/The_Dark_One.png/revision/latest?cb=20130528065115","name":"The
+        Dark One","affiliation":" Beifong Metalbending Academy Team Beifong Yu Dao"},{"_id":"5cf5679a915ecad153ab6919","allies":["Aang"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/c/cd/The_Duke.png/revision/latest?cb=20130706011726","name":"The
+        Duke","affiliation":" Earth Kingdom Freedom Fighters (separated) Hakoda''s
+        forces"},{"_id":"5cf5679a915ecad153ab6939","allies":["Iroh"],"enemies":["Xin
+        Fu"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/a/aa/Fung.png/revision/latest?cb=20140407160126","name":"Fung","affiliation":"
+        Earth Kingdom Order of the White Lotus"},{"_id":"5cf5679a915ecad153ab693b","allies":["Gan
+        Jin"],"enemies":["Zhang "],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/5/53/Gan_Jin_tribesman.png/revision/latest?cb=20130311212707","name":"Gan
+        Jin tribesman","affiliation":" Gan Jin Zhang"},{"_id":"5cf5679a915ecad153ab6932","allies":["Master
+        "],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/7/74/Flyer_distribution_man.png/revision/latest?cb=20140317210009","name":"Flyer
+        distribution man","affiliation":"Master Yu''s Earthbending Academy"},{"_id":"5cf5679a915ecad153ab693e","allies":["Xin
+        Fu"],"enemies":["Toph"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/43/The_Gecko.png/revision/latest?cb=20140317211140","name":"The
+        Gecko","affiliation":"Earth Rumble VI"},{"_id":"5cf5679a915ecad153ab690f","allies":["His
+        brother",""],"enemies":["Bison rustlers"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/1/18/Daw.png/revision/latest?cb=20140825105810","name":"Daw","affiliation":"Air
+        Nation"},{"_id":"5cf5679a915ecad153ab6918","allies":["Huu"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/7/7b/Due.png/revision/latest?cb=20130630225941","name":"Due","affiliation":"Foggy
+        Swamp Tribe"},{"_id":"5cf5679a915ecad153ab6945","allies":["Korra"],"enemies":["Amon"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/5/5a/Gommu.png/revision/latest?cb=20121110144808","name":"Gommu","affiliation":"United
+        Forces "},{"_id":"5cf5679a915ecad153ab691f","allies":["Roku"],"enemies":["Sozin"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/c/c3/Fang.png/revision/latest?cb=20121217082142","name":"Fang","affiliation":"Spirit
+        World"},{"_id":"5cf5679a915ecad153ab692b","allies":["Aang"],"enemies":["Combustion
+        Man"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/c/ca/Train_engineer.png/revision/latest?cb=20130308171418","name":"Fire
+        Nation train engineer","affiliation":" Fire Nation Fire Nation train"},{"_id":"5cf5679a915ecad153ab693f","allies":["Sha-Mo"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/9/98/Ghashiun.png/revision/latest?cb=20130705103954","name":"Ghashiun","affiliation":"Sandbender
+        Tribes"},{"_id":"5cf5679a915ecad153ab6948","allies":["Earth Kingdom","his
+        soldiers"],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/d/d9/Gow.png/revision/latest?cb=20140331143005","name":"Gow","affiliation":"Earth
+        Kingdom military"},{"_id":"5cf5679a915ecad153ab6955","allies":["Sun Warrior
+        chief"],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/9/99/Ham_Ghao.png/revision/latest?cb=20081225190937","name":"Ham
+        Ghao","affiliation":"Sun Warriors"},{"_id":"5cf5679a915ecad153ab69a8","allies":["Fire
+        Nation",""],"enemies":["Aang"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/b/b0/Kwan.png/revision/latest?cb=20140602125758","name":"Kwan","affiliation":"Fire
+        Nation school"},{"_id":"5cf5679a915ecad153ab69a9","allies":["Southern Water
+        Tribe",""],"enemies":["Dark spirits"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/7/77/Kya_%28waterbender%29.png/revision/latest?cb=20151102093816","name":"Kya","affiliation":"Southern
+        Water Tribe"},{"_id":"5cf5679a915ecad153ab6949","allies":["Fire Sages"],"enemies":["Aang"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/1/15/Great_Sage.png/revision/latest?cb=20130622212928","name":"Great
+        Sage","affiliation":" Fire Nation Fire Sages"},{"_id":"5cf5679a915ecad153ab695c","allies":["Dai
+        Li",""],"enemies":["Earth Kingdom",""],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/6/69/Head_of_the_Dai_Li.png/revision/latest?cb=20101208144254","name":"Head
+        of the Dai Li","affiliation":" Azula (formerly) Dai Li Long Feng (formerly)"},{"_id":"5cf5679a915ecad153ab6977","allies":["Fire
+        Nation",""],"enemies":["Amon"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/3/34/Iroh_%28United_Forces_general%29.png/revision/latest?cb=20140421100233","name":"Iroh
+        (United Forces general)","affiliation":" Fire Nation Royal Family United Forces"},{"_id":"5cf5679a915ecad153ab6980","allies":["Zuko
+        "],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/08/Jin.png/revision/latest?cb=20140504182006","name":"Jin","affiliation":"Earth
+        Kingdom"},{"_id":"5cf5679a915ecad153ab6992","allies":["Southern Water Tribe","Aang",""],"enemies":["Ozai"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/7/7a/Katara_smiles_at_coronation.png/revision/latest?cb=20150104171449","name":"Katara","affiliation":"
+        Team Avatar Water Tribe"},{"_id":"5cf5679a915ecad153ab699d","allies":[],"enemies":["Avatar"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/00/Koh.png/revision/latest?cb=20140124170917","name":"Koh","affiliation":"Spirit
+        World"},{"_id":"5cf5679a915ecad153ab69a3","allies":["His disciples","Fire
+        Nation",""],"enemies":["Toph"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/6/69/Kunyo.png/revision/latest?cb=20150608205801","name":"Kunyo","affiliation":"
+        Fire Nation Master Kunyo''s Firebending Dojo"},{"_id":"5cf5679a915ecad153ab69c2","allies":["Fire
+        Nation"],"enemies":["Sokka"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/b/bb/Lowly_guard.png/revision/latest?cb=20130109000020","name":"Lowly
+        guard","affiliation":"Boiling Rock"},{"_id":"5cf5679a915ecad153ab694d","allies":["Kuvira"],"enemies":["Bolin"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/9/92/Guard_post_officer.png/revision/latest?cb=20150407110154","name":"Guard
+        post officer","affiliation":"Military of the Earth Empire"},{"_id":"5cf5679a915ecad153ab694f","allies":["Earth
+        Queen"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/3/32/Gun.png/revision/latest?cb=20140730160152","name":"Gun","affiliation":"Earth
+        Kingdom government"},{"_id":"5cf5679a915ecad153ab6950","allies":[],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/1/19/Guo.png/revision/latest?cb=20140726210017","name":"Guo","affiliation":"Metal
+        Clan"},{"_id":"5cf5679a915ecad153ab6956","allies":["Southern Water Tribe",""],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/4d/Sinister_Hama.png/revision/latest?cb=20111215082556","name":"Hama","affiliation":"Southern
+        Water Tribe"},{"_id":"5cf5679a915ecad153ab69a1","allies":["Southern Water
+        Tribe",""],"enemies":["Amon"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/c/ca/Korra.png/revision/latest?cb=20150406235047","name":"Korra","affiliation":"
+        Fire Ferrets (formerly) Southern Water Tribe Tarrlok''s task force (formerly)
+        Team Avatar"},{"_id":"5cf5679a915ecad153ab69bf","allies":["Onku"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/8/81/Lokai.png/revision/latest?cb=20130911123754","name":"Lokai","affiliation":"Earth
+        Kingdom"},{"_id":"5cf5679a915ecad153ab69c0","allies":["The Dai Li "],"enemies":["Team
+        Avatar"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/8/8d/Long_Feng_scheming.png/revision/latest?cb=20140510202422","name":"Long
+        Feng","affiliation":" Ba Sing Se (formerly) Dai Li (formerly)"},{"_id":"5cf5679a915ecad153ab6958","allies":["Aang"],"enemies":["Fire
+        Nation"],"name":"Haru (games)","affiliation":"Earth Kingdom"},{"_id":"5cf5679a915ecad153ab696b","allies":["Earth
+        Kingdom",""],"enemies":["Team Avatar"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/6/68/Hou-Ting.png/revision/latest?cb=20150209042730","name":"Hou-Ting","affiliation":"
+        Earth Kingdom Earth Kingdom government Earth Kingdom Royal Family"},{"_id":"5cf5679a915ecad153ab697f","allies":["Freedom
+        Fighters"],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/1/1e/Jet.png/revision/latest?cb=20150324102352","name":"Jet","affiliation":"
+        Earth Kingdom Freedom Fighters (formerly)"},{"_id":"5cf5679a915ecad153ab6982","allies":["Air
+        Acolytes"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/8/87/Jingbo.png/revision/latest?cb=20140413160226","name":"Jingbo","affiliation":"Air
+        Acolytes"},{"_id":"5cf5679a915ecad153ab6988","allies":["Azula"],"enemies":["Team
+        Avatar"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/1/1f/Joo_Dee.png/revision/latest?cb=20140422090643","name":"Joo
+        Dee","affiliation":" Dai Li Fire Nation (previously Long Feng)"},{"_id":"5cf5679a915ecad153ab698b","allies":["Grandma
+        "],"enemies":["Sokka"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/4a/Juno.png/revision/latest?cb=20121230120716","name":"Juno","affiliation":"Earth
+        Kingdom"},{"_id":"5cf5679a915ecad153ab69af","allies":["Toph Beifong"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/a/aa/Lao_Beifong.png/revision/latest?cb=20140317211137","name":"Lao
+        Beifong","affiliation":" Beifong family Earth Kingdom Earthen Fire Refinery"},{"_id":"5cf5679a915ecad153ab694e","allies":["Kuvira"],"enemies":["Bolin"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/3/35/Guard_post_soldier.png/revision/latest?cb=20141115161831","name":"Guard
+        post soldier","affiliation":"Military of the Earth Empire"},{"_id":"5cf5679a915ecad153ab696d","allies":["Earth
+        King"],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/5/54/How.png/revision/latest?cb=20130627093056","name":"How","affiliation":"
+        Earth Kingdom Army Council of Five"},{"_id":"5cf5679a915ecad153ab6970","allies":["Fire
+        "],"enemies":["Spirits"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/7/75/Huntsman.png/revision/latest?cb=20131025131855","name":"Huntsman","affiliation":"Fire
+        lion turtle city"},{"_id":"5cf5679a915ecad153ab6972","allies":["Air Nomads"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/8/86/Iio.png/revision/latest?cb=20130705195256","name":"Iio","affiliation":"
+        Air Nomads Council of Elders"},{"_id":"5cf5679a915ecad153ab6973","allies":["Tenzin"],"enemies":["Amon"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/49/Ikki.png/revision/latest?cb=20150408121310","name":"Ikki","affiliation":"
+        Air Nation Air Temple Island Tenzin''s family"},{"_id":"5cf5679a915ecad153ab6976","allies":["Zuko",""],"enemies":["Ozai"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/c/c1/Iroh_smiling.png/revision/latest?cb=20130626131914","name":"Iroh","affiliation":"
+        Fire Nation Fire Nation military (formerly) Fire Nation Royal Family Jasmine
+        Dragon Order of the White Lotus Spirit World"},{"_id":"5cf5679a915ecad153ab69a6","allies":["Baatar
+        Jr. "],"enemies":["Red Lotus"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/e/ec/Kuvira.png/revision/latest?cb=20150407233430","name":"Kuvira","affiliation":"
+        Earth Empire Earth Kingdom (formerly) Metal Clan (formerly) Zaofu dance troupe
+        (formerly)"},{"_id":"5cf5679a915ecad153ab69ad","allies":["Tui"],"enemies":["Zhao"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/3/32/La.png/revision/latest?cb=20140124171520","name":"La","affiliation":"
+        Spirit World Water Tribe"},{"_id":"5cf5679a915ecad153ab69be","allies":["Satoru"],"enemies":["Team
+        Avatar"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/c/c0/Loban.png/revision/latest?cb=20140413192716","name":"Loban","affiliation":"
+        Air Acolytes[1] Earthen Fire Refinery (formerly)"},{"_id":"5cf5679a915ecad153ab69c3","allies":[],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/a/aa/Lu_and_Gang.png/revision/latest?cb=20131013160007","name":"Lu
+        and Gang","affiliation":"Republic City Police Department"},{"_id":"5cf5679a915ecad153ab6961","allies":["Miyuki"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/d/d5/Herbalist.png/revision/latest?cb=20140113140507","name":"Herbalist","affiliation":"
+        Herbalist institute Earth Kingdom"},{"_id":"5cf5679a915ecad153ab6978","allies":["Fire
+        Nation",""],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/1/10/Izumi.png/revision/latest?cb=20150406235046","name":"Izumi","affiliation":"
+        Fire Nation Fire Nation Royal Family Military of the Fire Nation"},{"_id":"5cf5679a915ecad153ab698e","allies":["Roku"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/1/16/Kaja.png/revision/latest?cb=20130627155839","name":"Kaja","affiliation":"Fire
+        Sages"},{"_id":"5cf5679a915ecad153ab69b3","allies":["Fire Nation",""],"enemies":["Northern
+        Water Tribe"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/2/28/Captain_Li.png/revision/latest?cb=20140119105634","name":"Li","affiliation":"Fire
+        Nation Navy"},{"_id":"5cf5679a915ecad153ab694a","allies":["Aang"],"enemies":["Poachers"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/2/24/Dragon_mom.png/revision/latest?cb=20130308171628","name":"Green
+        dragon","affiliation":"Fire Nation"},{"_id":"5cf5679a915ecad153ab694c","allies":["Fire
+        Nation"],"enemies":["Aang"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/e/ea/Guard_captain.png/revision/latest?cb=20140116105725","name":"Guard
+        captain","affiliation":"Fire Nation"},{"_id":"5cf5679a915ecad153ab698d","allies":["Jinora",""],"enemies":["Dai
+        Li"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/3/37/Teenage_Kai.png/revision/latest?cb=20141012234101","name":"Kai","affiliation":"Air
+        Nation"},{"_id":"5cf5679a915ecad153ab69b0","allies":[],"enemies":["Hiroshi
+        Sato"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/e/ec/Lau_Gan-Lan.png/revision/latest?cb=20121110203342","name":"Lau
+        Gan-Lan","affiliation":"Cabbage Corp"},{"_id":"5cf5679a915ecad153ab696a","allies":["Unalaq"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/4c/Judge_Hotah.png/revision/latest?cb=20131008135523","name":"Hotah","affiliation":"Northern
+        Water Tribe"},{"_id":"5cf5679a915ecad153ab6997","allies":[],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/7/70/Kemurikage_trio.png/revision/latest?cb=20161026183602","name":"Kemurikage","affiliation":"
+        Fire Islands Spirit World"},{"_id":"5cf5679a915ecad153ab6964","allies":["Riley"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/c/c2/Hiroshi.png/revision/latest?cb=20121230120251","name":"Hiroshi","affiliation":"
+        Earth Kingdom Unnamed team"},{"_id":"5cf5679a915ecad153ab6968","allies":["Suyin
+        Beifong"],"enemies":["Aiwei"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/a/a9/Hong_Li.png/revision/latest?cb=20140726172933","name":"Hong
+        Li","affiliation":"Metal Clan"},{"_id":"5cf5679a915ecad153ab6989","allies":["Opal"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/2/25/Juicy.png/revision/latest?cb=20150406232315","name":"Juicy","affiliation":"Air
+        Nation"},{"_id":"5cf5679a915ecad153ab699e","allies":["Kyoshi Warriors"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/f/f0/Koko.png/revision/latest?cb=20130819093502","name":"Koko","affiliation":"
+        Earth Kingdom Kyoshi Island"},{"_id":"5cf5679a915ecad153ab699f","allies":["His
+        "],"enemies":["Korra "],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/2/26/Kong.png/revision/latest?cb=20140808213006","name":"Kong","affiliation":"Earth
+        Kingdom Air Force"},{"_id":"5cf5679a915ecad153ab69b9","allies":["Ru"],"enemies":["Aang"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/6/61/Liling.png/revision/latest?cb=20190519153858","name":"Liling","affiliation":"Cranefish
+        Town Business Council"},{"_id":"5cf5679a915ecad153ab695d","allies":["Xin Fu"],"enemies":["Toph"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/06/Headhunter.png/revision/latest?cb=20140317211136","name":"Headhunter","affiliation":"
+        Earth Kingdom Earth Rumble VI"},{"_id":"5cf5679a915ecad153ab6998","allies":["Organ
+        grinder"],"enemies":["Dai Li"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/c/c8/Kenji.png/revision/latest?cb=20140504182009","name":"Kenji","affiliation":"Ba
+        Sing Se Zoo"},{"_id":"5cf5679a915ecad153ab6999","allies":["Spirits"],"enemies":["Huntsman"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/9/95/Kind_spirits.png/revision/latest?cb=20131101192156","name":"Kind
+        spirits","affiliation":"Spirit World"},{"_id":"5cf5679a915ecad153ab699c","allies":["Wan
+        Shi Tong"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/41/Knowledge_Seeker.png/revision/latest?cb=20131110112122","name":"Knowledge
+        Seekers","affiliation":"Spirit World"},{"_id":"5cf5679a915ecad153ab69a0","allies":["Mayor
+        "],"enemies":["Fire Lord Zuko "],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/8/85/Kori_Morishita.png/revision/latest?cb=20160330212637","name":"Kori
+        Morishita","affiliation":" Fire Nation Fire Nation colonies Yu Dao Yu Dao
+        Resistance (formerly)"},{"_id":"5cf5679a915ecad153ab69ab","allies":["Aang"],"enemies":["Zuko"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/d/de/Kya_pilot.png/revision/latest?cb=20130126192101","name":"Kya
+        (pilot)","affiliation":" Team Avatar Water Tribes"},{"_id":"5cf5679a915ecad153ab69b7","allies":["Spirits"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/3/35/Light_spirit.png/revision/latest?cb=20141130002129","name":"Light
+        spirit","affiliation":"Spirit World"},{"_id":"5cf5679a915ecad153ab69b8","allies":["Triple
+        Threat Triad"],"enemies":["Amon"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/6/60/Lightning_Bolt_Zolt.png/revision/latest?cb=20120927011722","name":"Lightning
+        Bolt Zolt","affiliation":"Triple Threat Triad"},{"_id":"5cf5679a915ecad153ab69bb","allies":["Toph
+        Beifong"],"enemies":["Terra Triad"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/8/83/Lin_Beifong.png/revision/latest?cb=20120608221629","name":"Lin
+        Beifong","affiliation":" Beifong family Republic City Police Department"},{"_id":"5cf5679a915ecad153ab6954","allies":["Kya",""],"enemies":["Ozai"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/4e/Hakoda_smiling.png/revision/latest?cb=20140510202641","name":"Hakoda","affiliation":"Southern
+        Water Tribe"},{"_id":"5cf5679a915ecad153ab6957","allies":["Aang"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/d/da/Haru.png/revision/latest?cb=20110104010244","name":"Haru","affiliation":"
+        Earth Kingdom Hakoda''s forces"},{"_id":"5cf5679a915ecad153ab6962","allies":["Headmaster"],"enemies":["Aang"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/9/96/Hide.png/revision/latest?cb=20140602093934","name":"Hide","affiliation":"Fire
+        Nation school"},{"_id":"5cf5679a915ecad153ab6981","allies":["Gan Jin"],"enemies":["Zhang",""],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/9/9c/Jin_Wei.png/revision/latest?cb=20131202203023","name":"Jin
+        Wei","affiliation":"Gan Jin tribe"},{"_id":"5cf5679a915ecad153ab6993","allies":["Team
+        Avatar"],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/3/34/Katara_games.png/revision/latest?cb=20140615101117","name":"Katara
+        (games)","affiliation":"Team Avatar"},{"_id":"5cf5679a915ecad153ab6995","allies":["New
+        Ozai Society"],"enemies":["Zuko "],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/1/13/Kei_Lo_waves.png/revision/latest?cb=20151124204503","name":"Kei
+        Lo","affiliation":"New Ozai Society "},{"_id":"5cf5679a915ecad153ab69a2","allies":["Earth
+        Kingdom",""],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/5/5e/Kuei.png/revision/latest?cb=20130627084042","name":"Kuei","affiliation":"
+        Earth Kingdom government Earth Kingdom Royal Family"},{"_id":"5cf5679a915ecad153ab69aa","allies":["Southern
+        Water Tribe",""],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/b/b5/Kya_%28nonbender%29.png/revision/latest?cb=20170523213135","name":"Kya
+        (nonbender)","affiliation":"Southern Water Tribe"},{"_id":"5cf5679a915ecad153ab69c7","allies":["Ukano"],"enemies":["Azula","Ukano","Team
+        Avatar "],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/40/Mai.png/revision/latest?cb=20090406114652","name":"Mai","affiliation":"
+        Azula''s team (formerly) Fire Nation Royal Fire Academy for Girls (formerly)"},{"_id":"5cf5679a915ecad153ab6953","allies":["Northern
+        Water Tribe"],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/46/Hahn.png/revision/latest?cb=20140122221732","name":"Hahn","affiliation":"Northern
+        Water Tribe"},{"_id":"5cf5679a915ecad153ab6965","allies":["Republic City","Yasuko","Asami
+        Sato",""],"enemies":["Agni Kai Triad"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/c/cf/Hiroshi_Sato.png/revision/latest?cb=20140521170104","name":"Hiroshi
+        Sato","affiliation":" Equalists (disavowed) Future Industries (formerly) Sato
+        family"},{"_id":"5cf5679a915ecad153ab696e","allies":["Baatar"],"enemies":["Kuvira"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/a/a9/Huan.png/revision/latest?cb=20150407233429","name":"Huan","affiliation":"
+        Beifong family Metal Clan"},{"_id":"5cf5679a915ecad153ab697a","allies":["His
+        mother",""],"enemies":["General"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/04/Little_boy.png/revision/latest?cb=20140613143543","name":"Jang
+        Hui boy","affiliation":"Fire Nation"},{"_id":"5cf5679a915ecad153ab6990","allies":["Southern
+        Water Tribe"],"enemies":["Fire Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/47/Kanna.png/revision/latest?cb=20130822224809","name":"Kanna","affiliation":"
+        Northern Water Tribe (formerly) Southern Water Tribe"},{"_id":"5cf5679a915ecad153ab69a7","allies":["Aang"],"enemies":["Dragon
+        egg"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/7/71/Kuzon.png/revision/latest?cb=20130101100859","name":"Kuzon","affiliation":"Fire
+        Nation"},{"_id":"5cf5679a915ecad153ab69ac","allies":["Koko","Yun",""],"enemies":["Tagaka"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/07/Avatar_Kyoshi.png/revision/latest?cb=20140215111846","name":"Kyoshi","affiliation":"Kyoshi
+        Island inhabitants"},{"_id":"5cf5679a915ecad153ab69ae","allies":["Air Nomads"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/48/Laghima.png/revision/latest?cb=20140809130844","name":"Laghima","affiliation":"Air
+        Nomads"},{"_id":"5cf5679a915ecad153ab69c4","allies":["Iroh"],"enemies":["Earth
+        Kingdom"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/d/d6/Lu_Ten.png/revision/latest?cb=20140504182009","name":"Lu
+        Ten","affiliation":" Fire Nation Fire Nation Royal Family Fire Nation military"},{"_id":"5cf5679a915ecad153ab69c6","allies":["Five-Seven-Five
+        Society"],"enemies":["Sokka"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/f/f8/Macmu-Ling.png/revision/latest?cb=20140504182010","name":"Macmu-Ling","affiliation":"
+        Earth Kingdom Five-Seven-Five Society"},{"_id":"5cf5679a915ecad153ab6952","allies":["Aang"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/a/a4/Monk_Gyatso.png/revision/latest?cb=20140103203807","name":"Gyatso","affiliation":"
+        Air Nomads Council of Elders"},{"_id":"5cf5679a915ecad153ab6959","allies":["Aang"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/f/fc/Haru%27s_mother.png/revision/latest?cb=20140108095709","name":"Haru''s
+        mother","affiliation":"Earth Kingdom"},{"_id":"5cf5679a915ecad153ab695a","allies":["Mako"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/5/52/Hasook.png/revision/latest?cb=20120325134051","name":"Hasook","affiliation":"Fire
+        Ferrets "},{"_id":"5cf5679a915ecad153ab695e","allies":["Hide"],"enemies":["Aang"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/6/68/Headmaster.png/revision/latest?cb=20140602125536","name":"Headmaster","affiliation":"Fire
+        Nation school"},{"_id":"5cf5679a915ecad153ab695f","allies":["Aang"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/b/b2/Calm_Hei_Bai.png/revision/latest?cb=20140124170913","name":"Hei
+        Bai","affiliation":"Spirit World"},{"_id":"5cf5679a915ecad153ab6960","allies":["Aang"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/4a/Hei-Won.png/revision/latest?cb=20121230162256","name":"Hei-Won","affiliation":"
+        Air Acolytes Official Avatar Aang Fan Club"},{"_id":"5cf5679a915ecad153ab6984","allies":["Tenzin"],"enemies":["Amon"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/01/Jinora.png/revision/latest?cb=20150131225800","name":"Jinora","affiliation":"
+        Air Nation Air Temple Island Tenzin''s family"},{"_id":"5cf5679a915ecad153ab6991","allies":["Bhanti
+        Tribe",""],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/b/b7/Karu.png/revision/latest?cb=20131020004017","name":"Karu","affiliation":"Bhanti
+        Tribe"},{"_id":"5cf5679a915ecad153ab6996","allies":["Yun and his companions"],"enemies":["Tagaka"],"name":"Kelsang","affiliation":"Yun''s
+        party"},{"_id":"5cf5679a915ecad153ab69b1","allies":["Gansu"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/5/50/Lee.png/revision/latest?cb=20140331143006","name":"Lee","affiliation":"Lee
+        Family Pig Farm"},{"_id":"5cf5679a915ecad153ab695b","allies":["Team Avatar"],"enemies":["Momo"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/2/2f/Hawky.png/revision/latest?cb=20121120044332","name":"Hawky","affiliation":"Team
+        Avatar"},{"_id":"5cf5679a915ecad153ab6966","allies":["Team Avatar"],"enemies":["Zhao"],"name":"Hiryu","affiliation":"Northern
+        Water Tribe"},{"_id":"5cf5679a915ecad153ab6971","allies":["Tho"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/8/85/Huu.png/revision/latest?cb=20130630224726","name":"Huu","affiliation":"Foggy
+        Swamp Tribe"},{"_id":"5cf5679a915ecad153ab6979","allies":["Fire Nation"],"enemies":["Lian"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/3/3a/Jailer.png/revision/latest?cb=20101117041427","name":"Jailer","affiliation":"Fire
+        Nation"},{"_id":"5cf5679a915ecad153ab697d","allies":["Fire Nation",""],"enemies":["Earth
+        Kingdom"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/e/eb/Jee.png/revision/latest?cb=20130714141540","name":"Jee","affiliation":"Fire
+        Nation Navy"},{"_id":"5cf5679a915ecad153ab697e","allies":["Chey"],"enemies":["Fire
+        Nation",""],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/a/a7/Jeong_Jeong_serious.png/revision/latest?cb=20140116113256","name":"Jeong
+        Jeong","affiliation":" Fire Nation Navy (deserted) Order of the White Lotus"},{"_id":"5cf5679a915ecad153ab6985","allies":["Ursa"],"enemies":["Ozai"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/5/5e/Jinzuk_and_Rina.png/revision/latest?cb=20130519222826","name":"Jinzuk
+        and Rina","affiliation":"Fire Nation"},{"_id":"5cf5679a915ecad153ab69b6","allies":["Amon"],"enemies":["Amon",""],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/5/51/Lieutenant.png/revision/latest?cb=20121110203356","name":"Lieutenant","affiliation":"Equalists"},{"_id":"5cf5679a915ecad153ab6967","allies":["Toph
+        Beifong"],"enemies":["Kunyo"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/3/32/Ho_Tun.png/revision/latest?cb=20120203051902","name":"Ho
+        Tun","affiliation":" Beifong Metalbending Academy Earth Kingdom Team Beifong
+        Yu Dao"},{"_id":"5cf5679a915ecad153ab6983","allies":["Air Nomads"],"enemies":["Fire
+        Nation"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/05/Jinju.png/revision/latest?cb=20130714155040","name":"Jinju","affiliation":"Air
+        Nomads"},{"_id":"5cf5679a915ecad153ab6963","allies":["Azula"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/9/9e/High_Sage.png/revision/latest?cb=20130623212716","name":"High
+        Sage","affiliation":" Fire Nation Fire Sages"}]'
+  recorded_at: Fri, 15 Dec 2023 17:59:47 GMT
+recorded_with: VCR 6.2.0

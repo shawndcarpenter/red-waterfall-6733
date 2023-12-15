@@ -1,7 +1,7 @@
 require "rails_helper"
 
 RSpec.describe "Root Path" do
-  describe "nation members functionality" do
+  describe "nation members functionality", :vcr do
     it "can visit get the fire nation members" do
       visit root_path
 
