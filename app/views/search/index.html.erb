@@ -1,5 +1,5 @@
 <h3>Total: <%= @members.count %></h3>
-<% @members.each do |member| %>
+<% @members.first(25).each do |member| %>
 <%= image_tag "#{member.photo_url}", width: "200" %>
   <h4>Name: <%= member.name %></h4>
   <p>Allies: <%= member.allies %></p>
