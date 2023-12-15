@@ -1,3 +1,4 @@
+<h1><%= @nation %></h1>
 <h3>Total: <%= @members.count %></h3>
 <% @members.first(25).each do |member| %>
 <%= image_tag "#{member.photo_url}", width: "200" %>

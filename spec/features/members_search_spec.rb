@@ -1,7 +1,7 @@
 require "rails_helper"
 
 RSpec.describe "Root Path" do
-  describe "Search functionality" do
+  describe "nation members functionality" do
     it "can visit get the fire nation members" do
       visit root_path
 
@@ -10,6 +10,7 @@ RSpec.describe "Root Path" do
 
       expect(current_path).to eq("/search")
 
+      expect(page).to have_content("FIRE NATION")
       expect(page).to have_content("Total: 97")
       expect(page).to have_content("Name: Azula")
       expect(page).to have_content("Allies: Ozai and Zuko")
